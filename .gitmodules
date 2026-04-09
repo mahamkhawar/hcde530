@@ -1,0 +1,3 @@
+[submodule "week-2"]
+	path = week-2
+	url = https://github.com/mahamkhawar/hcde-530-week-2-project.git
