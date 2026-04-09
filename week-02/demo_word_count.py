@@ -1,10 +1,11 @@
 # script to count the number of words in each response
-#see context.md for more details
+# see context.md for more details
 import csv
+from pathlib import Path
 
 
-# Load the CSV file
-filename = "demo_responses.csv"
+# Load the CSV file (same folder as this script)
+filename = Path(__file__).resolve().parent / "demo_responses.csv"
 responses = []
 
 with open(filename, newline="", encoding="utf-8") as f:
