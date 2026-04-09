@@ -1,0 +1,45 @@
+# HCDE 530 Week 2 Project Rules
+
+## Project context
+- This project analyzes `demo_responses.csv` with Python and may present results in simple static HTML.
+- Prioritize clarity and beginner-friendly code over advanced abstractions.
+
+## Directory structure (keep current)
+Use this structure as the baseline and update it whenever files are added, removed, moved, or renamed:
+
+```
+HCDE 530 WEEK 2 Project/
+├── .cursorrules
+├── .gitignore
+├── README.md
+├── dashboard.html
+├── demo_responses.csv
+└── demo_word_count.py
+```
+
+Maintenance requirement:
+- If any file changes the structure, update this section in the same task.
+- Keep only meaningful project files here (exclude `.git/` internals).
+- Keep names exact, including spaces and capitalization.
+
+## Python conventions
+- Use Python 3 standard library first; avoid adding dependencies unless explicitly requested.
+- Keep functions small and readable; add short docstrings for non-trivial functions.
+- Use descriptive variable names (`responses`, `word_counts`, `participant_id`).
+- Preserve UTF-8 handling for text files.
+
+## Data handling
+- Treat `demo_responses.csv` as the source of truth for participant response data.
+- Do not silently change CSV schema (`participant_id`, `role`, `response`) without user approval.
+- When computing metrics, include basic sanity checks and clear output labels.
+
+## HTML dashboard conventions
+- Keep dashboards standalone and easy to open locally in a browser.
+- Prefer plain HTML/CSS/JS (no framework) unless requested.
+- Use clear section titles and readable defaults for charts/tables.
+
+## Editing behavior
+- Make minimal, targeted edits; avoid unrelated refactors.
+- Explain changes in simple terms suitable for a student audience.
+- If requirements are unclear, ask one focused clarification question before major changes.
+- When creating, deleting, or renaming files, also update the directory structure section above before finishing.
