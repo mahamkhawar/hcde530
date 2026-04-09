@@ -1,3 +1,4 @@
+# script to count the number of words in each response
 import csv
 
 
