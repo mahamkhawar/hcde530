@@ -27,7 +27,11 @@ for role, count in sorted(role_counts.items()):
 # Calculate the average years of experience
 total_experience = 0
 for row in rows:
-    total_experience += int(row["experience_years"])
+    try:
+        total_experience += int(row["experience_years"])
+    except ValueError:
+        pass  # or log, skip, substitute a default, etc.
+
 
 avg_experience = total_experience / len(rows)
 print(f"\nAverage years of experience: {avg_experience:.1f}")
