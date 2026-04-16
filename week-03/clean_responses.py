@@ -35,3 +35,4 @@ def clean_csv(input_file: str, output_file: str) -> None:
 
 if __name__ == "__main__":
     clean_csv(INPUT_FILE, OUTPUT_FILE)
+    
