@@ -1,7 +1,0 @@
-name,role,email
-alice,developer,alice@example.com
-,designer,noname1@example.com
-bob,manager,bob@example.com
-   ,intern,noname2@example.com
-carol,qa engineer,carol@example.com
-dave,product owner,dave@example.com
