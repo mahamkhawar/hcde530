@@ -1,0 +1,5 @@
+name,role,email
+alice,DEVELOPER,alice@example.com
+bob,MANAGER,bob@example.com
+carol,QA ENGINEER,carol@example.com
+dave,PRODUCT OWNER,dave@example.com
