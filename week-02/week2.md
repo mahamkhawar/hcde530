@@ -22,10 +22,14 @@ The hardest part was not a single Python line—it was understanding how **Curso
 
 On a 1–5 scale of comfort running a Python script and reading the output, I am about a **2**. I am still rusty with Python in general (I last used it in undergrad about four years ago).
 
-## Topics I skipped reflecting on (for now)
+## Deeper connection between code literacy and UX research practice
 
-- Deeper connection between code literacy and day-to-day UX research practice  
-- One thing I would teach differently to a classmate  
-- A personal rule for using AI tools while still building literacy  
+Code literacy matters for UX research even when you are not writing code yourself. It helps with understanding how products are built, communicating effectively with engineers and other technical roles, and developing skills like data analysis for quantitative research. Being able to read code — or at least understand its logic — makes it easier to ask the right questions and interpret technical decisions through a design lens.
 
-I can add these later if the assignment asks for them.
+## One thing I would teach differently to a classmate
+
+I would focus on how Python and vibe-coding work in terms of overall structure, and on the importance of documentation through comments. It is easy to get a script running without understanding why it is written the way it is. Emphasizing structure and comments early would help a classmate build a mental model of the code rather than just copying outputs.
+
+## My personal rule for using AI tools
+
+My rule is to make sure I understand what the AI tool is doing rather than just accepting the output. If I cannot explain why a line of code is there or what it accomplishes, I have not learned anything from it. The goal is to use AI as a way to move faster while still building my own understanding — not as a shortcut that bypasses it.
